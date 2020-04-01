@@ -20,7 +20,6 @@
 }
 
 .flex .flex-item {
-  padding-right: 0 20px 10px;
   margin: 20px 0;
 }
 
@@ -35,11 +34,11 @@
 }
 
 .flex .flex-item:nth-child(even) {
-  padding-right: 3px;
   width: 70%;
 }
 
 .flex .flex-item ul{
+  color: #FFFDD0;
   font-size: 2em;
   list-style: none;
 }
