@@ -1,7 +1,13 @@
+.flex{
+  display: flex !important;
+  align-items: center;
+  background: #3E1E68;
+}
+
 $particleSize: 20vmin;
 $animationDuration: 6s;
 $amount: 20;
-.flex p span.ele {
+.flex div.ele {
   width: $particleSize;
   height: $particleSize;
   border-radius: $particleSize;
@@ -35,13 +41,6 @@ $amount: 20;
   100% {
     transform: translate3d(0, 0, 1px) rotate(360deg);
   }
-}
-
-
-.flex{
-  display: flex !important;
-  align-items: center;
-  background: #3E1E68;
 }
 
 .flex .flex-item:nth-child(odd) {
