@@ -26,8 +26,13 @@
 
 
 .flex .flex-item:nth-child(odd) {
+  padding-top: 10px;
   border-right: 10px solid #FFFDD0;
   width: 30%;
+}
+
+.flex .flex-item .userLogoLink {
+  font-size: 0;
 }
 
 .flex .flex-item:nth-child(even) {
@@ -36,6 +41,7 @@
 }
 
 .flex .flex-item ul{
+  font-size: 2em;
   list-style: none;
 }
 
