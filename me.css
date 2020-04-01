@@ -46,8 +46,8 @@
   list-style: none;
 }
 
-.flex-item ul a {
-  color: #FFFDD0;
+.flex-item ul a, .flex-item ul a:hover {
+  color: #FFFDD0 !important;
 }
 
 .quote {
