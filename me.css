@@ -23,9 +23,12 @@
 }
 
 .flex .flex-item:nth-child(even) {
-  border: 3px solid #fcfcfc;
   padding-right: 3px;
   width: 30%;
+}
+
+.flex .flex-item ul{
+  list-style: none;
 }
 
 .quote {
