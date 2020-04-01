@@ -1,7 +1,7 @@
 $particleSize: 20vmin;
 $animationDuration: 6s;
 $amount: 20;
-.background span.ele {
+.flex p span.ele {
   width: $particleSize;
   height: $particleSize;
   border-radius: $particleSize;
