@@ -26,7 +26,6 @@
 
 
 .flex .flex-item:nth-child(odd) {
-  padding-top: 10px;
   border-right: 10px solid #FFFDD0;
   width: 30%;
 }
