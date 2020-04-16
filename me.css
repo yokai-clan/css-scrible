@@ -159,7 +159,7 @@ html, body {
     animation-name: eue;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
-    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 .sheep .body {
   display: inline-block;
