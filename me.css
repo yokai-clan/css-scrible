@@ -17,6 +17,9 @@ html, body {
 .scene {
   display: inline-block;
   vertical-align: middle;
+  position: relative;
+  left: 35px;
+  width: 100%;
 }
 
 .text {
